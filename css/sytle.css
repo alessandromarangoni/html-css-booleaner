@@ -14,6 +14,10 @@
     background-size: contain;
 }
 
+h1{
+    font-size: 350%;
+}
+
 #sottotitolo{
     font-size: small;
     color: rgba(37, 37, 37, 0.66);
@@ -26,4 +30,16 @@
 #small{
     font-size:x-small;
     color: rgba(37, 37, 37, 0.66);
+}
+
+/* fino a qui ho inserito l header */
+
+#TimFoto1-2{
+    margin-top: 1%;
+}
+
+.DescrizioneFotoTim{
+    display: block;
+    margin: 0;
+    font-size: x-small;
 }
