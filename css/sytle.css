@@ -51,5 +51,26 @@ h1{
 
 /* primo article */
 .lorem{
-    margin-top: 1%;
+    margin-top: 2%;
+}
+
+/* terza section con tabella  */
+
+thead{
+    background-color: rgb(0, 162, 255);
+    color: white;
+    height: 20px;
+}
+
+.BackgroundAzzurro{
+    height: 50px;
+    background-color: rgb(127, 229, 255);
+
+}
+.BackgroundGiallo{
+    height: 50px;
+    background-color:rgba(255, 255, 0, 0.781);
+}
+.TerzaRiga{
+    width: 50%;
 }
