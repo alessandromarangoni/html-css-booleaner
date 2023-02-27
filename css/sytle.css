@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+}
+#logo{
+    height: 40px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+#LogoContainer{
+    background-color: #4EA0FF;
+    background-image: url("../img/pattern.png");
+    background-repeat: repeat-x;
+    background-size: contain;
+}
+
+#sottotitolo{
+    font-size: small;
+    color: rgba(37, 37, 37, 0.66);
+}
+#azzurro{
+    color: #4EA0FF;
+
+}
+
+#small{
+    font-size:x-small;
+    color: rgba(37, 37, 37, 0.66);
+}
