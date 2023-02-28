@@ -1,0 +1,112 @@
+/* imposto un margine 0 per tutta la pagina */
+*{
+    margin:0;
+}
+/* header */
+#logo{
+    height: 40px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+#LogoContainer{
+    background-color: #4EA0FF;
+    background-image: url("../img/pattern.png");
+    background-repeat: repeat-x;
+    background-size: 25%;
+}
+
+h1{
+    font-size: 350%;
+}
+
+.SmallGray{
+    font-size: small;
+    color: rgba(32, 32, 32, 0.66);
+}
+#azzurro{
+    color: #4EA0FF;
+
+}
+
+#x-small{
+    font-size:x-small;
+    color: rgba(37, 37, 37, 0.66);
+}
+
+/* fine header */
+
+/*  inizio main */
+
+/* prima section immagini + descrizione */
+#TimFoto1-2{
+    margin-top: 1%;
+}
+
+.DescrizioneFotoTim{
+    display: block;
+    margin: 0;
+    font-size: x-small;
+}
+
+/* seconda section */
+
+.lorem{
+    margin-top: 2%;
+}
+
+/* terza section con tabella  */
+table{
+    border-collapse: collapse;
+}
+
+thead{
+    background-color: rgb(0, 162, 255);
+    color: white;
+    height: 20px;
+}
+
+.BackgroundAzzurro{
+    height: 50px;
+    background-color: rgb(127, 229, 255);
+
+}
+.BackgroundGiallo{
+    height: 50px;
+    background-color:rgba(255, 255, 0, 0.781);
+}
+.TerzaRiga{
+    width: 50%;
+}
+
+/* footer */
+footer{
+    margin-top: 1%;
+}
+
+#ImgSize{
+    padding: 1%;
+    color: white;
+    font-size: x-large;
+    margin-top: 1%;
+    width:312px ;
+    height:208px;
+    background-image: url(../img/monitor.jpg);
+    background-repeat: no-repeat;
+}
+#ImgSize2{
+    padding: 1%;
+    color: white;
+    font-size: x-large;
+    width:312px ;
+    height:208px;
+    background-image: url(../img/graph.jpg);
+    background-repeat: no-repeat;
+}
+
+/* bonus */
+
+.container{
+    width: 80%;
+    margin: auto;
+}
